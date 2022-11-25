@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.orderpage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Rectangle8.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="400" Margin="0,-170,0,0"></Image>
+            <Button x:Name="Btnorder"
+                    Text="My Order"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="0,-220,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Button>
+            <Image Source="status.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="370" Margin="0,-140,0,0"></Image>
+            
+            <Image Source="bottomnav.png" VerticalOptions="Center" HorizontalOptions="Center" 
+                    Margin="0,330,0,0"   
+            ></Image>
+            <ImageButton Source="homebuttonini.png" VerticalOptions="Center" HorizontalOptions="Center"
+                    Margin="0,-75,300,0" BackgroundColor="Transparent" WidthRequest="60" HeightRequest="62"
+                    Clicked="ImageButton_Clicked"
+            ></ImageButton>
+            <Button x:Name="Btnpesan"
+                    Text="Order No.0002142"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-155,-590,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Button>
+            <Image Source="shirt.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,-10,0,0"  
+            ></Image>
+            <Image Source="trousers.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,0"  
+            ></Image>
+            <Image Source="TShirt.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,0"  
+            ></Image>
+            <Image Source="Towel.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,5"  
+            ></Image>
+            <Image Source="bayar.png" VerticalOptions="Center" WidthRequest="60" HeightRequest="52" Margin="8,0,8,0"  
+            ></Image>
+            <Button x:Name="Btnpay"
+                    Text="Pay Now"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#198754"
+                    HorizontalOptions="Center"
+                    CornerRadius="10" WidthRequest="82" HeightRequest="38"
+                    Margin="200,-51,-50,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+            ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

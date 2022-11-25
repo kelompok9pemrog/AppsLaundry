@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.homepage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="wave2.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="510" Margin="0,-91,0,0"></Image>
+            <Label
+                    VerticalOptions="Center"
+                    x:Name="MyName"
+                    HorizontalOptions="Center"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    Margin="-150,-385,70,-20" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Label>
+            <Button x:Name="Btnwelcome"
+                    Text="Welcome Back!"
+                    TextColor="#FFFF"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-150,0,70,-1" FontAttributes="None" TextTransform="None" FontSize="Medium"
+            ></Button>
+            <Image Source="Saldo.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="120" Margin="0,25,0,-30"></Image>
+            <Button x:Name="Btnservice"
+                    Text="Our Services"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-220,18,0,20" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Button>
+            <Image Source="services.png" VerticalOptions="Center" WidthRequest="274" HeightRequest="222" Margin="0,-25,0,0"></Image>
+            <Button x:Name="Btnorder"
+                    Text="Active Order"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-220,0,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Button>
+            <Image Source="activeorder.png" VerticalOptions="Center" WidthRequest="324" HeightRequest="67" Margin="0,-10,0,0"></Image>
+            <Image Source="home.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="400" HeightRequest="87" Margin="0,-5,0,0"></Image>
+            <ImageButton x:Name="Btnpesanan" 
+                    ImageButton.Source ="Pesanan.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="35" HeightRequest="36" Margin="0,-73,0,0"
+                    Clicked="Btnpesanan_Clicked_1"
+            ></ImageButton>
+            <Button x:Name="Btntextorder"
+                    Text="Order"
+                    TextColor="#C8C8C8"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="65"
+                    Margin="-100,-19,-100,0" FontAttributes="None" TextTransform="None" FontSize="Small"
+                    Clicked="Btntextorder_Clicked"
+            ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

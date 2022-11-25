@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp.Android", "LaundryApp\LaundryApp.Android\LaundryApp.Android.csproj", "{212828F9-BD95-41F6-9458-B9DA21ACF9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaundryApp", "LaundryApp\LaundryApp\LaundryApp.csproj", "{69178FC1-08C0-409C-97CC-1B73BA60951D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212828F9-BD95-41F6-9458-B9DA21ACF9AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69178FC1-08C0-409C-97CC-1B73BA60951D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7FF8845-8DB1-48C3-B000-2B7FF2F43CB0}
+	EndGlobalSection
+EndGlobal
