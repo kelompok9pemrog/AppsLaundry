@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.accpage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F6F6F6">
+            <Image Source="acc.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="510" Margin="0,-138,0,0"></Image>
+            <Label Text="Hello " Margin="-232,-165,0,0" VerticalOptions="Center" WidthRequest="70" HeightRequest="25" HorizontalOptions="Center" FontSize="Large" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labelusn"  Margin="0,-31,0,53" Padding="0,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="180" HeightRequest="30" VerticalTextAlignment="Center" FontSize="Large" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label Text="Full name" Margin="0,-55,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labelfull"  Margin="0,-55,0,53" Padding="10,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="30" VerticalTextAlignment="Center" BackgroundColor="White" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label Text="Password" Margin="0,-55,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labelpass"  Margin="0,-55,0,53" Padding="10,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="30" VerticalTextAlignment="Center" BackgroundColor="White" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label Text="Email" Margin="0,-55,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labelmail"  Margin="0,-55,0,53" Padding="10,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="30" VerticalTextAlignment="Center" BackgroundColor="White" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label Text="Phone Number" Margin="0,-55,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labelphone"  Margin="0,-55,0,53" Padding="10,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="30" VerticalTextAlignment="Center" BackgroundColor="White" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Label Text="Address" Margin="0,-55,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label x:Name="labeladdr"  Margin="0,-55,0,53" Padding="10,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="300" HeightRequest="30" VerticalTextAlignment="Center" BackgroundColor="White" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Image Source="kotakbut.png" VerticalOptions="Center" WidthRequest="100" HeightRequest="90" Margin="0,72,0,0"></Image>
+        <ImageButton x:Name="Btnhome" 
+                    ImageButton.Source ="homebuttonini.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="60" Margin="-290,-77,0,0"
+                    Clicked="Btnhome_Clicked"
+         ></ImageButton>
+        <ImageButton x:Name="Btnorder" 
+                    ImageButton.Source ="order.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="60" Margin="5,-65,0,-18"
+                     Clicked="Btnorder_Clicked"
+         ></ImageButton>
+        <ImageButton x:Name="Btnakun" 
+                    ImageButton.Source ="accHijau.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="60" Margin="290,-50,0,0"
+         ></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

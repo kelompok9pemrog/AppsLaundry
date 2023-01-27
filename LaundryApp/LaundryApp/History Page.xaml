@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.History_Page"
+             NavigationPage.HasNavigationBar="False">
+             
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="wave2.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="510" Margin="0,-135,0,0"></Image>
+            <Label 
+                    Text="History Laundry"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-5,-330,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Label>
+            <Image Source="rect.png" VerticalOptions="Center" WidthRequest="100" HeightRequest="400" Margin="0,-60,0,0"></Image>
+            <Label Text="Wash" Margin="-45,-283,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Medium" TextColor="#000000" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label Text="21 Januari 2023" Margin="-40,-50,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Small" TextColor="Gray" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label Text="8 items" Margin="-40,-50,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Medium" TextColor="#000000" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Label Text="Pesanan Selesai" Margin="-40,-35,0,53" VerticalOptions="Center" WidthRequest="300" HeightRequest="25" HorizontalOptions="Center" FontSize="Medium" TextColor="#198754" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+            <Image Source="kotakbut.png" VerticalOptions="Center" WidthRequest="100" HeightRequest="90" Margin="0,336,0,0"></Image>
+            <ImageButton x:Name="Btnhome" 
+                    ImageButton.Source ="homebuttonini.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="60" Margin="-290,-77,0,0"
+                    Clicked="Btnhome_Clicked"
+            ></ImageButton>
+            <ImageButton x:Name="Btnpesanan" 
+                    ImageButton.Source ="PesanHijau.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="59" Margin="0,-65,0,-18"
+            ></ImageButton>
+            <ImageButton x:Name="Btnakun" 
+                    ImageButton.Source ="akun.png" 
+                    BackgroundColor="Transparent" HorizontalOptions="Center" 
+                    VerticalOptions="Center" WidthRequest="60" HeightRequest="60" Margin="270,-48,0,0"
+                    Clicked="Btnakun_Clicked"
+            ></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

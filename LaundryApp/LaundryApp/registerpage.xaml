@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.registerpage"
+             NavigationPage.HasNavigationBar="False">
+ <ContentPage.Content>
+        <StackLayout>
+            <Image Source="wave1.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="510" Margin="0,-20,0,0"></Image>
+            <Image Source="assetlogolaundry_prev_ui1.png" VerticalOptions="Center" WidthRequest="250" HeightRequest="250" Margin="0,-440,0,30"></Image>
+            <Button x:Name="Btnlogin"
+                    Text="Login"
+                    TextColor="#ADB5BD"
+                    BackgroundColor="Transparent"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    WidthRequest="100"
+                    Margin="0,-10,270,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+                    Clicked="Btnlogin_Clicked"
+             ></Button>
+            <Button x:Name="Btnreg"
+                    Text="Register"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    WidthRequest="110"
+                    Margin="245,-50,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+             ></Button>
+            <Image Source="name.png" VerticalOptions="Center" WidthRequest="25" HeightRequest="25" Margin="0,-2,40,10"></Image>
+            <Image Source="password.png" VerticalOptions="Center" HeightRequest="26" Margin="0,0,40,10"></Image>
+            <Image Source="fulln.png" VerticalOptions="Center" HeightRequest="24" Margin="0,0,40,10"></Image>
+            <Image Source="email.png" VerticalOptions="Center" HeightRequest="24" Margin="0,0,40,10"></Image>
+            <Image Source="phone.png" VerticalOptions="Center" HeightRequest="23" Margin="0,0,40,10"></Image>
+            <Image Source="add.png" VerticalOptions="Center" HeightRequest="27" Margin="0,0,40,10"></Image>
+
+            <Entry x:Name="Userentry" Placeholder="username" TextColor="#000000" 
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-258,0,0"></Entry>
+            <Entry x:Name="Passwentry" Placeholder="password" IsPassword ="True" TextColor="#000000" 
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-9,0,0"></Entry>
+            <Entry x:Name="Fullnentry" Placeholder="full name" TextColor="#000000" 
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-11,0,0"></Entry>
+            <Entry x:Name="Emailnentry" Placeholder="email" TextColor="#000000"
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-11,0,0"></Entry>
+            <Entry x:Name="Phonenentry" Placeholder="phone number" TextColor="#000000" Keyboard="Numeric"
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-11,0,0"></Entry>
+            <Entry x:Name="Addressnentry" Placeholder="address" TextColor="#000000" 
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-7,0,0"></Entry>
+            
+            <Button x:Name="Btninput"
+                    Text="Register Now"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#198754"
+                    CornerRadius="10"
+                    HorizontalOptions="Center"
+                    WidthRequest="330" HeightRequest="45" Margin="0,-5,0,0"
+                    FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+                    Clicked="Btninput_Clicked"
+             ></Button>
+            <Button x:Name="Btnhave"
+                    Text="Already have an account? Click"
+                    TextColor="#ADB5BD"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="0,-10,63,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+            ></Button>
+            <Button x:Name="Btnlogin1"
+                    Text="Login"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="180,-53,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+                    Clicked="Btnlogin1_Clicked"
+             ></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

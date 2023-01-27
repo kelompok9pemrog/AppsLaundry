@@ -16,3 +16,14 @@ D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\Laundr
 D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\loginpage.xaml.g.cs
 D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\homepage.xaml.g.cs
 D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\orderpage.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\registerpage.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\LaundryApp.Properties.Resources.resources
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\LaundryApp.csproj.GenerateResource.cache
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\ordercarpet.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\orderdry.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\Success.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\orderiron.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\accpage.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\Payment.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\PaymentCarpet.xaml.g.cs
+D:\S1 INFORMATIKA\Mata Kuliah\SMT 3\PEMROGRAMAN LANJUT\Laundry\LaundryApp\LaundryApp\LaundryApp\obj\Debug\netstandard2.0\History Page.xaml.g.cs

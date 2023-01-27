@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LaundryApp.Payment"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Rectangle8.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="400" Margin="0,-160,0,0"></Image>
+            <Label x:Name="Btnorder"
+                    Text="Payment"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="0,-210,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Label>
+            <Label x:Name="type"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="0,30,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+            ></Label>
+
+            <Label Text="Address" Margin="-295,-5,0,53" HorizontalOptions="Center" FontSize="Small" TextColor="Black" FontAttributes="Bold"></Label>
+            <Image Source="addr.png" VerticalOptions="Center" WidthRequest="50" HeightRequest="60" Margin="0,-55,0,53"
+            ></Image>
+            <Label x:Name="Labeladdress" Margin="-80,-115,0,20" HorizontalOptions="Center" FontSize="Medium" TextColor="Black" FontAttributes="None"></Label>
+            <Label Text="Entry Date" Margin="25,25,0,0" TextColor="Black" FontAttributes="Bold"/>
+            <DatePicker x:Name="EntryDate"
+                        Format="D"
+                        Margin="20,-10,0,0" FontSize="Medium"
+                        DateSelected = "EntryDate_DateSelected"
+                        />
+            <Label Text="Exit Date" Margin="25,0,0,0" TextColor="Black" FontAttributes="Bold"/>
+            <DatePicker x:Name="ExitDate"
+                        Format="D"
+                        DateSelected="EntryDate_DateSelected"
+                        Margin="20,-10,0,0" FontSize="Medium"
+                        BindingContext="{x:Reference EntryDate}"
+                        MinimumDate="{Binding Date}"
+                        />
+            <Label  x:Name="nopesan"
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-100,5,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Label 
+                    Text="Order No."
+                    TextColor="#000000"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-210,-30,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="ktk.png" VerticalOptions="Center" WidthRequest="200" HeightRequest="230" Margin="5,0,0,0"
+            ></Image>
+            
+            
+            <Label  Text="Shirt"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-230,-215,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+
+            <Image Source="kotakjum.png" WidthRequest="50" HeightRequest="30" Margin="-120,-32,0,0"
+            ></Image>
+            <Label  x:Name="Labelit"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-3,-35,118,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            
+            <Label  Text="x"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-20,-30,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="130" Margin="30,-30,0,20"></Image>
+            <Label  x:Name="pricesh"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="240,-55,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            
+            
+
+            <Label  Text="Trousers"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-200,20,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="kotakjum.png" WidthRequest="50" HeightRequest="30" Margin="-120,-32,0,0"
+            ></Image>
+            <Label  x:Name="Labelitro"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-3,-37,118,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Label  Text="x"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-20,-30,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="130" Margin="30,-30,0,20"></Image>
+            <Label  x:Name="pricetr"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="240,-55,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            
+
+
+            <Label  Text="T-Shirt"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-210,20,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="kotakjum.png" WidthRequest="50" HeightRequest="30" Margin="-120,-32,0,0"
+            ></Image>
+            <Label  x:Name="Labelits"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-3,-37,118,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Label  Text="x"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-20,-30,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="130" Margin="30,-30,0,20"></Image>
+            <Label  x:Name="pricetsh"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="240,-55,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            
+
+            <Label  Text="Towel"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-215,20,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="kotakjum.png" WidthRequest="50" HeightRequest="30" Margin="-120,-32,0,0"
+            ></Image>
+            <Label  x:Name="Labelitow"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-3,-37,118,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Label  Text="x"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-20,-30,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            <Image Source="pricetow.png" VerticalOptions="Center" WidthRequest="130" Margin="30,-30,0,20"></Image>
+            <Label  x:Name="pricetw"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="240,-55,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+            
+
+            <Image Source="cart.png" VerticalOptions="Center" WidthRequest="50" HeightRequest="50" Margin="0,100,0,0"
+            ></Image>
+            <Button x:Name="Btnpay"
+                    Text="Pay Now"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#198754"
+                    HorizontalOptions="Center"
+                    CornerRadius="10" WidthRequest="90" HeightRequest="38"
+                    Margin="230,-50,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+                    Clicked="Btnpay_Clicked"
+            ></Button>
+
+            <Label  x:Name="Labelitem"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-243,-35,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+            ></Label>
+            <Label 
+                    Text="items"
+                    TextColor="#198754"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="-130,-25,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+            ></Label>
+            <Label  x:Name="total"
+                    TextColor="#FD001F"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Center"
+                    Margin="50,-29,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+            ></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,8 +3,20 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "LaundryApp.Android.dll" comes first in this list. */
 		"LaundryApp.Android.dll",
+		"BouncyCastle.Crypto.dll",
 		"FormsViewGroup.dll",
+		"Google.Protobuf.dll",
+		"K4os.Compression.LZ4.dll",
+		"K4os.Compression.LZ4.Streams.dll",
+		"K4os.Hash.xxHash.dll",
 		"LaundryApp.dll",
+		"MySql.Data.dll",
+		"MySqlConnector.dll",
+		"System.Configuration.ConfigurationManager.dll",
+		"System.Diagnostics.DiagnosticSource.dll",
+		"System.Security.AccessControl.dll",
+		"System.Security.Permissions.dll",
+		"System.Security.Principal.Windows.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
@@ -64,6 +76,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"ZstdNet.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

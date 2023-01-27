@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LaundryApp.loginpage">
+             x:Class="LaundryApp.loginpage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
             <Image Source="wave1.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="510" Margin="0,-20,0,0"></Image>
@@ -12,7 +13,8 @@
                     BackgroundColor="Transparent"
                     VerticalOptions="Center" HorizontalOptions="Center"
                     WidthRequest="100"
-                    Margin="0,0,270,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+                    Margin="0,-10,270,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+                    Clicked="Btnlogin_Clicked"
              ></Button>
             <Button x:Name="Btnreg"
                     Text="Register"
@@ -21,9 +23,10 @@
                     VerticalOptions="Center" HorizontalOptions="Center"
                     WidthRequest="110"
                     Margin="245,-50,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
+                    Clicked="Btnreg_Clicked"
              ></Button>
             <Image Source="name.png" VerticalOptions="Center" WidthRequest="25" HeightRequest="25" Margin="0,2,40,20"></Image>
-            <Image Source="password.png" VerticalOptions="Center" HeightRequest="26" Margin="0,0,40,0"></Image>
+            <Image Source="lock.png" VerticalOptions="Center" HeightRequest="24" Margin="0,0,40,0"></Image>
             <Button x:Name="Btnpass"
                     Text="Forgot Password?"
                     TextColor="#198754"
@@ -48,17 +51,18 @@
                     HorizontalOptions="Center"
                     Margin="0,-10,63,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
             ></Button>
-            <Button x:Name="Btnlogin1"
+            <Button x:Name="Btnreg1"
                     Text="Register"
                     TextColor="#198754"
                     BackgroundColor="Transparent"
                     HorizontalOptions="Center"
                     Margin="160,-55,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+                    Clicked="Btnreg1_Clicked"
              ></Button>
             <Entry x:Name="Userentry" Placeholder="username" TextColor="#000000" 
                    VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,-248,0,0"></Entry>
             <Entry x:Name="Passwentry" Placeholder="passwordnyabro" IsPassword ="True" TextColor="#000000" 
-                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,0,0,0"></Entry>
+                   VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="256" Margin="0,0,0,0" ></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

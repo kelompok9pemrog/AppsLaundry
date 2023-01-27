@@ -1,50 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LaundryApp.orderpage">
+             x:Class="LaundryApp.orderpage"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
-            <Image Source="Rectangle8.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="400" Margin="0,-170,0,0"></Image>
+            <Image Source="Rectangle8.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="400" Margin="0,-160,0,0"></Image>
             <Button x:Name="Btnorder"
-                    Text="My Order"
+                    Text="Wash"
                     TextColor="#000000"
                     BackgroundColor="Transparent"
                     HorizontalOptions="Center"
                     Margin="0,-220,0,0" FontAttributes="Bold" TextTransform="None" FontSize="Large"
             ></Button>
-            <Image Source="status.png" VerticalOptions="Center" WidthRequest="300" HeightRequest="370" Margin="0,-140,0,0"></Image>
-            
-            <Image Source="bottomnav.png" VerticalOptions="Center" HorizontalOptions="Center" 
-                    Margin="0,330,0,0"   
-            ></Image>
-            <ImageButton Source="homebuttonini.png" VerticalOptions="Center" HorizontalOptions="Center"
-                    Margin="0,-75,300,0" BackgroundColor="Transparent" WidthRequest="60" HeightRequest="62"
-                    Clicked="ImageButton_Clicked"
-            ></ImageButton>
             <Button x:Name="Btnpesan"
-                    Text="Order No.0002142"
+                    Text="Order No.68"
                     TextColor="#000000"
                     BackgroundColor="Transparent"
                     HorizontalOptions="Center"
-                    Margin="-155,-590,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
+                    Margin="-155,15,50,0" FontAttributes="Bold" TextTransform="None" FontSize="Medium"
             ></Button>
-            <Image Source="shirt.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,-10,0,0"  
+            <Image Source="kotak.png" VerticalOptions="Center" WidthRequest="100" HeightRequest="100" Margin="0,-10,0,0"  
             ></Image>
-            <Image Source="trousers.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,0"  
+            <Image Source="Shirt.png" VerticalOptions="Center" WidthRequest="95" Margin="-190,-90,90,10"></Image>
+            <Label Text="Shirt" Margin="-160,-85,0,53" HorizontalOptions="Center" FontSize="Medium" TextColor="#198754" FontAttributes="Bold"></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="95" Margin="-120,-50,0,20"></Image>
+            <Stepper Minimum="0" Maximum="50" Value="0" Increment="1" x:Name="stepper" WidthRequest="100" HeightRequest="40" Margin="190,-85,0,0"/>
+            <Image Source="kotakjum.png" WidthRequest="60" HeightRequest="37" Margin="173,-2,0,0"
             ></Image>
-            <Image Source="TShirt.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,0"  
+            <Label x:Name="lstepper" Text="{Binding Source={x:Reference stepper}, Path=Value,StringFormat='{0}'}" FontSize="Medium" Margin="278,-38,0,0" FontAttributes="Bold"/>
+
+            <Image Source="kotak.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="100" Margin="0,20,0,0"  
             ></Image>
-            <Image Source="Towel.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="90" Margin="0,3,0,5"  
+            <Image Source="legs.png" VerticalOptions="Center" WidthRequest="95" Margin="-190,-90,90,7"></Image>
+            <Label Text="Trousers" Margin="-130,-85,0,53" HorizontalOptions="Center" FontSize="Medium" TextColor="#198754" FontAttributes="Bold"></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="95" Margin="-125,-50,0,20"></Image>
+            <Stepper Minimum="0" Maximum="50" Value="0" Increment="1" x:Name="step" WidthRequest="100" HeightRequest="40" Margin="190,-85,0,0"/>
+            <Image Source="kotakjum.png" WidthRequest="60" HeightRequest="37" Margin="173,-2,0,0"
             ></Image>
-            <Image Source="bayar.png" VerticalOptions="Center" WidthRequest="60" HeightRequest="52" Margin="8,0,8,0"  
+            <Label x:Name="lstep" Text="{Binding Source={x:Reference step}, Path=Value,StringFormat='{0}'}" FontSize="Medium" Margin="278,-38,0,0" FontAttributes="Bold"/>
+
+
+            <Image Source="kotak.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="100" Margin="0,15,0,0"  
+            ></Image>
+            <Image Source="clothes.png" VerticalOptions="Center" WidthRequest="95" Margin="-190,-90,90,14"></Image>
+            <Label Text="T-Shirt" Margin="-130,-85,0,53" HorizontalOptions="Center" FontSize="Medium" TextColor="#198754" FontAttributes="Bold"></Label>
+            <Image Source="price.png" VerticalOptions="Center" WidthRequest="95" Margin="-115,-50,0,20"></Image>
+            <Stepper Minimum="0" Maximum="50" Value="0" Increment="1" x:Name="ste" WidthRequest="100" HeightRequest="40" Margin="190,-85,0,0"/>
+            <Image Source="kotakjum.png" WidthRequest="60" HeightRequest="37" Margin="173,-2,0,0"
+            ></Image>
+            <Label x:Name="lste" Text="{Binding Source={x:Reference ste}, Path=Value,StringFormat='{0}'}" FontSize="Medium" Margin="278,-38,0,0" FontAttributes="Bold"/>
+
+
+            <Image Source="kotak.png" VerticalOptions="Center" WidthRequest="95" HeightRequest="100" Margin="0,20,0,0"  
+            ></Image>
+            <Image Source="Towel.png" VerticalOptions="Center" WidthRequest="95" Margin="-190,-85,90,15"></Image>
+            <Label Text="Towel" Margin="-140,-95,0,53" HorizontalOptions="Center" FontSize="Medium" TextColor="#198754" FontAttributes="Bold"></Label>
+            <Image Source="pricetow.png" VerticalOptions="Center" WidthRequest="95" Margin="-120,-50,0,20"></Image>
+            <Stepper Minimum="0" Maximum="50" Value="0" Increment="1" x:Name="per" WidthRequest="100" HeightRequest="40" Margin="190,-85,0,0"/>
+            <Image Source="kotakjum.png" WidthRequest="60" HeightRequest="37" Margin="173,-2,0,0"
+            ></Image>
+            <Label x:Name="lper" Text="{Binding Source={x:Reference per}, Path=Value,StringFormat='{0}'}" FontSize="Medium" Margin="278,-38,0,0" FontAttributes="Bold"/>
+            
+            <Image Source="cart.png" VerticalOptions="Center" WidthRequest="50" HeightRequest="50" Margin="-195,135,-200,90"
             ></Image>
             <Button x:Name="Btnpay"
-                    Text="Pay Now"
+                    Text="Order"
                     TextColor="#FFFFFF"
                     BackgroundColor="#198754"
                     HorizontalOptions="Center"
                     CornerRadius="10" WidthRequest="82" HeightRequest="38"
-                    Margin="200,-51,-50,0" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+                    Margin="200,-140,-50,-50" FontAttributes="Bold" TextTransform="None" FontSize="Small"
+                    Clicked="Btnpay_Clicked"
             ></Button>
         </StackLayout>
     </ContentPage.Content>
